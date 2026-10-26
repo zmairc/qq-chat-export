@@ -1,0 +1,23 @@
+# 不上传任何真实数据：密钥、解密后的库、导出结果都属于隐私内容
+work/
+decrypted/
+导出/
+*.log
+
+# 明文密钥
+keys_*.json
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 工具/系统
+.vscode/
+.idea/
+.workbuddy/
+Thumbs.db
+desktop.ini
+*.zip
